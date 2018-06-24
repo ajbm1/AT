@@ -14,13 +14,13 @@ var ATversion = 'ZEK BETA';
 //Main Loader Initialize Function (loads first, load everything else)///////////
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////
-var atscript = document.getElementById('AutoTrimps-Zekbeta')
-  , basepath = 'https://Zorn192.github.io/AT/'
+var atscript = document.getElementById('AutoTrimps-script')
+  , basepath = 'https://Zorn192.github.io/AutoTrimps/'
   , modulepath = 'modules/'
   ;
 //This should redirect the script to wherever its being mirrored from.
 if (atscript !== null) {
-    basepath = atscript.src.replace(/AT\.js$/, '');
+    basepath = atscript.src.replace(/AutoTrimps2\.js$/, '');
 }
 //This could potentially do something one day. like: read localhost url from tampermonkey.
 // AKA do certain things when matched on a certain url.
