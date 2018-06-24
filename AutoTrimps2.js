@@ -15,7 +15,7 @@ var ATversion = 'ZEK BETA';
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////
 var atscript = document.getElementById('AutoTrimps-script')
-  , basepath = 'https://Zorn192.github.io/AutoTrimps/'
+  , basepath = 'https://Zorn192.github.io/AT/'
   , modulepath = 'modules/'
   ;
 //This should redirect the script to wherever its being mirrored from.
