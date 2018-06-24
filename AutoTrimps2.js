@@ -14,7 +14,7 @@ var ATversion = 'ZEK BETA';
 //Main Loader Initialize Function (loads first, load everything else)///////////
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////
-var atscript = document.getElementById('AT-script')
+var atscript = document.getElementById('AutoTrimps-Zekbeta')
   , basepath = 'https://Zorn192.github.io/AT/'
   , modulepath = 'modules/'
   ;
