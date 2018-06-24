@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         AutoTrimpsV2
-// @version      2.1.6.9b-genbtc-4-2-2018
+// @version      ZEK BETA
 // @updateURL    https://github.com/genbtc/AutoTrimps/AutoTrimps2.js
 // @description  Automate all the trimps!
 // @author       zininzinin, spindrjr, belaith, ishakaru, genBTC, Unihedron, coderPatsy, Kfro, Zeker0
@@ -8,19 +8,19 @@
 // @include      *kongregate.com/games/GreenSatellite/trimps
 // @grant        none
 // ==/UserScript==
-var ATversion = '2.1.6.9b-genbtc-4-2-2018 + KFrowde + Zeker0';
+var ATversion = 'ZEK BETA';
 
 ////////////////////////////////////////////////////////////////////////////////
 //Main Loader Initialize Function (loads first, load everything else)///////////
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////
-var atscript = document.getElementById('AutoTrimps-script')
-  , basepath = 'https://Zorn192.github.io/AutoTrimps/'
+var atscript = document.getElementById('AT-script')
+  , basepath = 'https://Zorn192.github.io/AT/'
   , modulepath = 'modules/'
   ;
 //This should redirect the script to wherever its being mirrored from.
 if (atscript !== null) {
-    basepath = atscript.src.replace(/AutoTrimps2\.js$/, '');
+    basepath = atscript.src.replace(/AT\.js$/, '');
 }
 //This could potentially do something one day. like: read localhost url from tampermonkey.
 // AKA do certain things when matched on a certain url.
